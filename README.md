@@ -1,74 +1,57 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Проект: Регистрация и Авторизация
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание проекта
 
-## Available Scripts
+Этот проект представляет собой простое приложение для регистрации и авторизации пользователей, разработанное на React.
 
-In the project directory, you can run:
+## Технологии и библиотеки
 
-### `npm start`
+- **React**
+- **Webpack**
+- **Mantine**
+- **Sass**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Установка зависимостей
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Перед началом работы убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [npm](https://www.npmjs.com/).
 
-### `npm test`
+1. **Клонирование репозитория:**
+   git clone https://github.com/CapybaraSwim/reg_auth.git
+   
+Перейдите в директорию проекта:
+cd reg_auth
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Установите следующие зависимости:
 
-### `npm run build`
+React и ReactDOM:
+npm install react react-dom
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mantine:
+npm install @mantine/core @mantine/hooks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sass:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install sass
 
-### `npm run eject`
+Зависимости для разработки:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Webpack и связанные пакеты:
+npm install --save-dev webpack webpack-cli webpack-dev-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Babel:
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Loaders для Webpack:
+npm install --save-dev css-loader style-loader sass-loader
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Запуск локального сервера
+После установки всех зависимостей, вы можете запустить проект на локальном сервере.
 
-## Learn More
+Запуск проекта в режиме разработки:
+npm start
+Это откроет проект в браузере по адресу http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Сборка проекта для продакшена:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# reg_auth
->>>>>>> b33b2c72638d8a2a0925ac4e5786ae30edf34da3
+Если вы хотите собрать проект для развертывания:
+npm run build
