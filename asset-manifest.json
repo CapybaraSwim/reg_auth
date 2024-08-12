@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reg_auth/static/css/main.6afed49d.css",
+    "main.js": "/reg_auth/static/js/main.b5f96cf2.js",
+    "index.html": "/reg_auth/index.html",
+    "main.6afed49d.css.map": "/reg_auth/static/css/main.6afed49d.css.map",
+    "main.b5f96cf2.js.map": "/reg_auth/static/js/main.b5f96cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6afed49d.css",
+    "static/js/main.b5f96cf2.js"
+  ]
+}
